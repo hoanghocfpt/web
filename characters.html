@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <div class="popup">
-            <div class="login_popup">
+            <div class="login_popup style_popup">
                 <div class="close_popup">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -46,7 +46,49 @@
                     </div>
                     <div class="link">
                         <span>Don't have an account?</span>
-                        <a href="#">Sign up</a>
+                        <a href="#" id="signup">Sign up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="signup_popup style_popup">
+                <div class="close_popup">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>   
+                </div>
+                <h2>Sign up</h2>
+                <p>Create an account with Bobby</p>
+                <div class="popup_container">
+                    <form action="">
+                        <div class="inputText">
+                            <input type="text" name="email" id="email" placeholder="email">
+                        </div>
+                        <div class="inputPassword">
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div class="check">
+                            <div class="container_check">
+                                
+                                <input type="checkbox" name="" id="">
+                                <label for="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                                    </svg>  
+                                </label>
+                            </div>
+                            <span>
+                                I agree with Bobby's <a href="#">Terms and Conditions</a> and that my personal data will be processed pursuant to the <a href="#">Privacy Policy</a>.
+                            </span>
+                        </div>
+                        <input type="submit" value="Sign up" name="signup">
+                    </form>
+                    <div class="or"></div>
+                    <div class="connectWallet">
+                        <span>Connect</span><img src="./images/asset/hashpack.webp" alt="">
+                    </div>
+                    <div class="link">
+                        <span>Do you have an account?</span>
+                        <a href="#" class="login">Log in</a>
                     </div>
                 </div>
             </div>
@@ -60,11 +102,21 @@
                 </div>
                 <div class="noti">
                     <div class="text">
-                        <span id="text">BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <img src="/images/bobbyface.png" width="30px" alt="">
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <img src="/images/bobbyface.png" width="30px" alt="">
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <img src="/images/bobbyface.png" width="30px" alt="">
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <img src="/images/bobbyface.png" width="30px" alt="">
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
+                        <img src="/images/bobbyface.png" width="30px" alt="">
+                        <span>BOBBY, THE BLUE CREATURE HAS 5,000 UNIQUE COLLECTIBLE THAT IS COMING SOON</span>
                     </div>
                 </div>
                 <div class="right">
-                    <div class="btn" id="login">
+                    <div class="btn login" id="login">
                         <span>Login</span>
                     </div>
                 </div>
@@ -212,6 +264,7 @@
                 <span class="copyright">
                     COPYRIGHT @2023 - FRENZLAND
                 </span>
+                <span class="powered">Powered by Hedera</span>
             </div>
         </footer>
         

@@ -1,0 +1,310 @@
+@media only screen and (max-width: 1020px){
+    .container header {
+        padding-top: 110px;
+    }
+    .container header .nav_sub .noti .text span{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .container header nav.main{
+        top: 62px;
+    }
+    .container .home .home_container{
+        grid-template-columns: 1fr;
+    }
+    .container .home .header_home{
+        align-items: center;
+        padding: 50px 0 0 0;
+        justify-content: center;
+    }
+    .container .home .header_home h2{
+        text-align: center;
+    }
+    .container .home .header_home h2 .label{
+        display: block;
+    }
+    .container .home .header_home h2 span.heading{
+        font-size: 88px;
+    }
+    .container .home .header_home p{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 0 10%;
+        transform: translateY(-10px);
+    }
+    .container .home .header_home a.btn_cta{
+        padding: 16px 24px;
+    }
+    .container .home .header_home a span{
+        font-size: 16px;
+    }
+    .container .home .header_home a svg{
+        width: 12px;
+        height: 12px;
+        fill: #fff;
+        transition: all 0.1s ease-in-out;
+    }
+    .container .home .img_home img{
+        width: 80%;
+        max-width: 500px;
+    }
+    .container .minigame .heading{
+        padding:  0 5%;
+    }
+    .container .minigame > .heading h3{
+        font-size: 60px;
+    }
+    .container .minigame .heading p{
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .container .minigame .minigame_container{
+        padding: 0 5%;
+        gap: 16px;
+        overflow-x: auto;
+    }
+    .container .minigame .minigame_container::-webkit-scrollbar {
+        height: 0;
+        width: 0;
+    }
+    .container .minigame .minigame_container a{
+        min-width: 260px;
+    }
+    .container .minigame .trailer{
+        padding: 0 5%;
+    }
+    .container .minigame .trailer .trailer_container{
+        padding: 30px;
+    }
+    .container .minigame .trailer .heading h4{
+        font-size: 36px;
+    }
+    .container .minigame .trailer .heading p{
+        font-size: 16px;
+    }
+    .container .minigame .trailer .video iframe{
+        width: 100%;
+        height: 250px;
+    }
+    .container .minigame .news{
+        padding: 50px 5% 20px 5%;
+    }
+    .container .minigame .news .heading{
+        margin-bottom: 0;
+    }
+    .container .minigame .news .heading h3{
+        font-size: 42px;
+    }
+    .container .minigame .news .news_container{
+        grid-template-columns: 1fr 1fr;
+        overflow-y: none;
+        padding: 10px 0;
+    }
+    .container .minigame .news .news_container .card .content .date{
+        font-size: 14px;
+    }
+    .container .minigame .news .news_container .card .content .title_post{
+        font-size: 16px;
+    }
+    .container .minigame .news .news_container .card .content a span{
+        font-size: 14px;
+    }
+    .container .minigame .news .news_container .card .content a span svg{
+        height: 10px;
+    }
+    .container .minigame .news .news_container .btn_seemore{
+        margin-top: 10px;
+        padding: 16px 24px;
+        justify-self: right;
+        transform: translateX(calc(100% - 100px));
+    
+    }
+    .container .minigame .news .news_container .btn_seemore span{
+        font-size: 16px;
+    }
+    .container .minigame .news .news_container .btn_seemore svg{
+        height: 10px;
+    }
+
+    .container .shopping .shopping_container{
+        padding: 0 5%;
+        gap: 24px 16px; 
+    }
+    .container .shopping .shopping_container .card{
+        min-width: 260px;
+        width: auto;
+    }
+    .container .shopping .shopping_container .card .content .title{
+        font-size: 18px;
+    }
+    .container .shopping .shopping_container .card .content a{
+        font-size: 14px;
+    }
+
+
+    /* Characters */
+    .container .characters .heading{
+        padding: 0 5%;
+    }
+    .characters .characters_container{
+        padding: 0 5%;
+    }
+    .characters .characters_container .item{
+        padding: 0 30px 0 0px;
+        height: 200px;
+    }
+    .characters .characters_container .item .name{
+        font-size: 24px;
+    }
+    .characters .characters_container .item .icon svg{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 640px){
+    .container header {
+        padding-top:12px;
+    }
+    .container header .nav_sub .right .languages {
+        display: none;
+    }
+    .container header .nav_sub .noti .text span{
+        font-size:16px;
+        font-weight: 800;
+    }
+    .container header .nav_sub .noti .text{
+        display: flex;
+        align-items: center;
+        animation: scroll-left 80s linear infinite;
+    }
+    .container header nav.main{
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .container header nav.main.active{
+        background-color: #FF7A00;
+        height: calc(100vh - 62px);
+        top: 62px;
+        z-index: 999;
+        justify-content: center;
+        position: absolute;
+    }
+    .container header nav.main .navbar{
+        position: fixed;
+        top: 68px;
+        border: 1.3px solid #000;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: absolute;
+        left: 10px; */
+    }
+    .container header nav.main .navbar svg{
+        width: 24px;
+        height: 24px;
+    }
+    .container header nav.main.active .close{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .container header nav.main .close svg{
+        width: 28px;
+        color: #fff;
+        height: 28px;
+    }
+    .container header nav.main.active .navbar{
+        display: none;
+    }
+    
+    .container header nav.main ul{
+        display: none;
+    }
+    .container header nav.main.active ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .home .home_container{
+        grid-template-columns: 1fr;
+    }
+    .container .minigame {
+        padding-bottom: 50px;
+    }
+    .container .minigame .box {
+        height: 150px;
+    }
+    .container .minigame .trailer .trailer_container{
+        grid-template-columns: 1fr;
+    }
+    .container .minigame .trailer .heading{
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .container .minigame .trailer .heading h4 {
+        line-height: 1.4;
+    }
+    .container .minigame .news .heading h3{
+        line-height: 1;
+        font-size: 40px;
+    }
+    .container .minigame .news .news_container{
+        grid-template-columns: 1fr;
+    }
+    .container .minigame .news .news_container .btn_seemore{
+        margin-top: 0;
+        justify-self: center;
+        transform: translateX(0);
+    
+    }
+    .container .shopping .shopping_container{
+        grid-template-columns: 1fr;
+    }
+    .container .shopping .shopping_container .card{
+        padding: 18px;
+    }
+    .container .shopping .shopping_container .card:nth-child(2n-1){
+        justify-self: center;
+    }
+    .container .shopping .shopping_container .card:nth-child(2n-2){
+        transform: translateY(0);    
+    
+    }
+    .container .minigame .shape2{
+        bottom: -10px;
+    }
+    
+
+    /* Characters */
+    .characters .heading h2{
+        font-size: 36px;
+    }
+    .characters .characters_container {
+        transform: translateY(00px);
+    }
+    .characters .characters_container .item{
+        padding: 0 30px 0 0px;
+        height: 160px;
+    }
+    .characters .characters_container .item .name{
+        font-size: 18px;
+    }
+    .characters .characters_container .item .icon svg{
+        width: 16px;
+        height: 16px;
+    }
+}

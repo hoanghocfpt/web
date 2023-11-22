@@ -389,6 +389,9 @@ body{
     justify-content: center;
     gap: 24px;
 }
+.container header nav.main ul img{
+    display: none;
+}
 .container header nav.main ul li{
     list-style: none;
 

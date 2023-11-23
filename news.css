@@ -1,12 +1,12 @@
 
 .container{
-    background-color: #00C2FF;
     background-size: 2000px;
     background-position: center;
     background-repeat: repeat;
-    background-image: url(images/bannermain.png);
+    background-image: url(images/bannermain.webp);
     background-blend-mode: luminosity;
     position: relative;
+    background-image: url(/images/bannermain.webp),linear-gradient(0deg,#bc00b7,#23b2ff);;
 
 }
 .container .news{

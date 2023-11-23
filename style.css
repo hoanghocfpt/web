@@ -409,7 +409,7 @@ body{
     background-size: 2000px;
     background-position: center;
     background-repeat: repeat;
-    background-image: url(images/bannermain.png);
+    background-image: url(images/bannermain.webp);
     background-blend-mode: luminosity; 
 }
 .container .home .home_container{
@@ -514,7 +514,7 @@ body{
     background-size: 2000px;
     background-position: center;
     background-repeat: repeat;
-    background-image: url(images/bannermain.png);
+    background-image: url(images/bannermain.webp);
     background-blend-mode: luminosity; 
     position: relative;
     display: flex;
